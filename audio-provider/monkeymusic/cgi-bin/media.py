@@ -15,7 +15,7 @@ import traceback
 PASSWORD = 'rocks'
 STATUS = {200: '200 OK', 302: '302 Found', 400: '400 Bad Request', 401: 'Not Authorized'}
 TOKEN_VALUE = 'ABCDEF12345'
-URL_FORMAT = 'http://localhost:8000/cgi-bin/media.py?token={token}&file=media/{file}'
+URL_FORMAT = 'https://dev.agentsib.ru/cgi-bin/media.py?token={token}&file=media/{file}'
 USER_NAME = 'yanni'
 SONG_INFO = {
     'audio-file-1.mp3': {

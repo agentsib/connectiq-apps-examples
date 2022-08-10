@@ -22,14 +22,14 @@ class ContentIterator extends Media.ContentIterator {
 
     // Returns the playback profile
     function getPlaybackProfile() {
-        var profile = new PlaybackProfile();
+        var profile = new Media.PlaybackProfile();
 
         profile.playbackControls = [
+                                   Media.PLAYBACK_CONTROL_NEXT,
+                                   Media.PLAYBACK_CONTROL_PREVIOUS,
                                    Media.PLAYBACK_CONTROL_PLAY,
                                    Media.PLAYBACK_CONTROL_PAUSE,
                                    Media.PLAYBACK_CONTROL_SHUFFLE,
-                                   Media.PLAYBACK_CONTROL_PREVIOUS,
-                                   Media.PLAYBACK_CONTROL_NEXT,
                                    Media.PLAYBACK_CONTROL_SKIP_FORWARD,
                                    Media.PLAYBACK_CONTROL_SKIP_BACKWARD,
                                    Media.PLAYBACK_CONTROL_REPEAT,

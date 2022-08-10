@@ -1,4 +1,5 @@
 using Toybox.WatchUi;
+using Toybox.Media;
 
 // Menu to choose what songs to playback
 class ConfigurePlaybackMenu extends WatchUi.CheckboxMenu {

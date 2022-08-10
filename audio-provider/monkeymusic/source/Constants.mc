@@ -33,6 +33,6 @@ module SongInfo {
 
 // General constants used in the app
 module Constants {
-    const PROVIDER_URL = "http://localhost:8000/cgi-bin/media.py";
-    const REDIRECT_URL = "http://localhost:8000/cgi-bin/callback.py";
+    const PROVIDER_URL = "https://dev.agentsib.ru/cgi-bin/media.py";
+    const REDIRECT_URL = "https://dev.agentsib.ru/cgi-bin/callback.py";
 }

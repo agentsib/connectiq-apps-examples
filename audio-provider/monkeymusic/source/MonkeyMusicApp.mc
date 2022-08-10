@@ -8,7 +8,7 @@ class MonkeyMusicApp extends Application.AudioContentProviderApp {
         var version = getProperty(Properties.APP_VERSION);
         if (version != Versions.current) {
             clearProperties();
-            Media.resetContentCache();
+//            Media.resetContentCache();
             setProperty(Properties.APP_VERSION, Versions.current);
         }
 
